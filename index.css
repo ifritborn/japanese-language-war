@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+    
+    
+}
+
+#game_container {
+    background-color: rgb(41, 114, 187);
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 0px 100px;
+    padding: 25px;
+    border: 1px solid black;
+    text-align: center;
+    height: 100%;
+    
+    
+}
+
+#intro {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+#game_board {
+    border: solid black 1px;
+    padding: 10px;
+    background-color: rgb(219, 158, 158);
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 3px;
+    justify-content: center;
+    
+    
+}
+
+#game_cell {
+    background-color: aqua;
+    border: solid black 1px;
+    margin: 2px;
+   
+}
+
+#player1_cell {
+    background-color: darkgray;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: 80px;
+    gap: 3px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#player1_hand {
+    background-color: brown;
+    border: solid black 1px;
+    margin: 2px;
+}
